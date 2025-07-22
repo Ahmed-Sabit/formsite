@@ -1,7 +1,21 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
-
+h3 {
+    text-align: center;
+}
 .info-box {
     display: block;
+}
+thead {
+    background-color: #000000;
+}
+td {
+    border: 2px solid black;
+    padding: 5px;
+}
+table {
+    background-color: rgb(77, 7, 124);
+    color: aliceblue;
 }
