@@ -2,8 +2,22 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
+input {
+    margin: 5px;
+}
+fieldset {
+    margin: 15px;
+}
+legend {
+    font-size: 1.1rem;
+    border: 0.5px solid black;
+}
 h3 {
+    font-weight: 400;
+}
+h2 {
     text-align: center;
+    margin: 20px 10px;
 }
 .info-box {
     display: block;
@@ -13,9 +27,26 @@ thead {
 }
 td {
     border: 2px solid black;
-    padding: 5px;
+    padding: 10px;
 }
 table {
     background-color: rgb(77, 7, 124);
     color: aliceblue;
+    border-collapse: collapse;
+}
+tfoot {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.caption {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+footer {
+    margin: 20px 10px;
+    text-align: center;
+    font-size: 0.8rem;
 }
